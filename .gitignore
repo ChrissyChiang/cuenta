@@ -1,0 +1,22 @@
+# ----------------------------------------------------
+# 忽略 Xcode/macOS 系統檔案
+# ----------------------------------------------------
+.DS_Store
+# Xcode build and settings files
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+!contents.xcworkspacedata
+*.xcuserstate
+xcuserdata/
+Carthage/Build
+Pods/
+# Fastlane
+fastlane/report.xml
+fastlane/test_output
+fastlane/screenshots
