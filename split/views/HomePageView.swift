@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PlansView: View {
+struct HomePageView: View {
     @State var sheetIsPresented = false
     var body: some View {
         NavigationStack{
@@ -26,12 +26,12 @@ struct PlansView: View {
                 }
             }
             .sheet(isPresented: $sheetIsPresented) {
-                PlanSheetView()
+                CreatePlanView()
             }
         }
     }
 }
 
 #Preview {
-    PlansView()
+    HomePageView()
 }
