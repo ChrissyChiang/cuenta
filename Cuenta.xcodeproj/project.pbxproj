@@ -16,13 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A122519D2EE4324A00212832 /* split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = split.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A122519D2EE4324A00212832 /* Cuenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A122519F2EE4324A00212832 /* split */ = {
+		A122519F2EE4324A00212832 /* Cuenta */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = split;
+			path = Cuenta;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -47,7 +47,7 @@
 		A12251942EE4324A00212832 = {
 			isa = PBXGroup;
 			children = (
-				A122519F2EE4324A00212832 /* split */,
+				A122519F2EE4324A00212832 /* Cuenta */,
 				A122519E2EE4324A00212832 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 		A122519E2EE4324A00212832 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A122519D2EE4324A00212832 /* split.app */,
+				A122519D2EE4324A00212832 /* Cuenta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A122519C2EE4324A00212832 /* split */ = {
+		A122519C2EE4324A00212832 /* Cuenta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A12251A82EE4324B00212832 /* Build configuration list for PBXNativeTarget "split" */;
+			buildConfigurationList = A12251A82EE4324B00212832 /* Build configuration list for PBXNativeTarget "Cuenta" */;
 			buildPhases = (
 				A12251992EE4324A00212832 /* Sources */,
 				A122519A2EE4324A00212832 /* Frameworks */,
@@ -76,9 +76,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A122519F2EE4324A00212832 /* split */,
+				A122519F2EE4324A00212832 /* Cuenta */,
 			);
-			name = split;
+			name = Cuenta;
 			packageProductDependencies = (
 				A1446C782EE9942000741629 /* Auth */,
 				A1446C7A2EE9942000741629 /* Functions */,
@@ -88,7 +88,7 @@
 				A1446C822EE9942000741629 /* Supabase */,
 			);
 			productName = split;
-			productReference = A122519D2EE4324A00212832 /* split.app */;
+			productReference = A122519D2EE4324A00212832 /* Cuenta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A12251982EE4324A00212832 /* Build configuration list for PBXProject "split" */;
+			buildConfigurationList = A12251982EE4324A00212832 /* Build configuration list for PBXProject "Cuenta" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A122519C2EE4324A00212832 /* split */,
+				A122519C2EE4324A00212832 /* Cuenta */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A12251982EE4324A00212832 /* Build configuration list for PBXProject "split" */ = {
+		A12251982EE4324A00212832 /* Build configuration list for PBXProject "Cuenta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A12251A62EE4324B00212832 /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A12251A82EE4324B00212832 /* Build configuration list for PBXNativeTarget "split" */ = {
+		A12251A82EE4324B00212832 /* Build configuration list for PBXNativeTarget "Cuenta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A12251A92EE4324B00212832 /* Debug */,

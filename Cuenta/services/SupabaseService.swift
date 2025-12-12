@@ -1,7 +1,4 @@
 //
-//  supabase.swift
-//  split
-//
 //  Created by Chrissy on 12/10/25.
 //
 

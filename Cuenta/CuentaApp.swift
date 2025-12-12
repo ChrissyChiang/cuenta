@@ -1,14 +1,11 @@
 //
-//  splitApp.swift
-//  split
-//
 //  Created by Chrissy on 12/6/25.
 //
 
 import SwiftUI
 
 @main
-struct splitApp: App {
+struct CuentaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

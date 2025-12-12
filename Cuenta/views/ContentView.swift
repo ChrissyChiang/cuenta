@@ -1,7 +1,4 @@
 //
-//  ContentView.swift
-//  split
-//
 //  Created by Chrissy on 12/6/25.
 //
 

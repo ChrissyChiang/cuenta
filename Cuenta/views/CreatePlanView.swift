@@ -1,7 +1,4 @@
 //
-//  SettingsView.swift
-//  split
-//
 //  Created by Chrissy on 12/6/25.
 //
 
@@ -28,10 +25,12 @@ struct CreatePlanView: View {
                     Section(
                         header: Text("Name"),
                         footer: Group {
-                                Text("Please enter a valid plan name.")
-                                    .foregroundColor(.red)
-                                    .opacity(hasStartedTypingName && !isInputValid ? 1 : 0)
-
+                            Text("Please enter a valid plan name.")
+                                .foregroundColor(.red)
+                                .opacity(
+                                    hasStartedTypingName && !isInputValid
+                                        ? 1 : 0
+                                )
                         }
                     ) {
                         TextField("Enter plan Name", text: $name)
@@ -48,7 +47,7 @@ struct CreatePlanView: View {
                                 }
                             }
                             .task {
-                                // 在 sheet 呈現後稍微延遲再聚焦，避免鍵盤不出現
+                                // 在 sheet 出現後稍微延遲再聚焦，避免鍵盤不出現
                                 try? await Task.sleep(for: .seconds(0.2))
                                 await MainActor.run { isInputActive = true }
                             }
