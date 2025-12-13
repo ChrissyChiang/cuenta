@@ -5,10 +5,13 @@
 import SwiftUI
 
 struct HomePageView: View {
+    @Binding var selectedTab: Int
     @State var sheetIsPresented = false
+
     var body: some View {
         NavigationStack{
             VStack{
+
                 Spacer()
             }
             .navigationTitle("spilt count" )
@@ -23,12 +26,12 @@ struct HomePageView: View {
                 }
             }
             .sheet(isPresented: $sheetIsPresented) {
-                CreatePlanView()
+                CreatePlanView(selectedTab: $selectedTab)
             }
         }
     }
 }
 
 #Preview {
-    HomePageView()
+    HomePageView(selectedTab: .constant(0))
 }

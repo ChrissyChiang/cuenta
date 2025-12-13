@@ -5,9 +5,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection = 0
+
     var body: some View {
-        TabView{
-            HomePageView()
+        TabView(selection: $selection) {
+            HomePageView(selectedTab: $selection)
                 .tabItem {
                     Label("計畫", systemImage: "house.fill")
                 }.tag(0)
